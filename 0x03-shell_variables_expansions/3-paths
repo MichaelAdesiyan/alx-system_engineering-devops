@@ -1,0 +1,3 @@
+#!/bin/bash
+echo $PATH | TR -S ":" "\n" | wc -l
+echo $PATH | tr -s ":" "\n" | wc -l
